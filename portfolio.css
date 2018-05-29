@@ -1,0 +1,177 @@
+@font-face {
+    font-family: "Circular Bold";
+    src: url(fonts/circular-bold.otf);
+}
+
+@font-face {
+    font-family: "Circular Book";
+    src: url(fonts/circular-book.otf);
+}
+
+body, html {
+  margin: 0;
+  width: 100vw;
+  overflow-x: hidden;
+  background: #fff;
+}
+h1, h2 {
+  font-family: "Circular Bold" !important;
+}
+button, h3, h4 {
+  font-family: "Circular Bold" !important;
+}
+p, ul {
+  font-family: "Circular Book";
+}
+.customnavbar-ul { 
+  color: black;
+  padding: 0; 
+  list-style: none; 
+  display: table;
+  width: 600px;
+  text-align: center;
+  float: right;
+  font-family: "Circular Book"!important;
+}
+.customnavbar-li { 
+  display: table-cell; 
+  padding: 15px 0;
+}
+.customnavbar {
+  color: #000!important;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 0.2em;
+  
+  padding: 15px 20px;
+  position: relative;
+}
+.customnavbar:after {    
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: #000;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+.customnavbar:hover:after { 
+  width: 100%; 
+  left: 0; 
+}
+
+#headname {
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+}
+
+.fullscreen {
+  height: 100vh;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+        background-repeat: no-repeat;
+background-position: bottom!important;
+background-attachment: fixed;
+background-size: 100% auto !important;
+background-repeat: no-repeat;
+  overflow-x: hidden;
+
+  width: 100vw;
+  background:     linear-gradient( rgba(0, 0, 0, 0.23), rgba(0, 0, 0, 0.23)), url("images/sf-background.jpg");
+}
+
+.halfscreen {
+  height: 50vh;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  background-position: bottom;
+  width: 100vw;
+  background-image: linear-gradient( rgba(0, 0, 0, 0.23), rgba(0, 0, 0, 0.23)), url("images/sf-background.jpg");
+}
+
+.titleheader {
+  color: #fff!important;
+  height: 20vh;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  letter-spacing: 1em;
+}
+
+.titletext {
+    text-transform: uppercase;
+}
+
+.socials {
+  letter-spacing: 0.3em;
+}
+
+.profilepic {
+  border-radius: 100%;
+  width: 100%;
+  height: 100%;
+}
+
+.textbox {
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+.whitetext {
+  color: white;
+}
+
+.linker {
+  border-radius: 25px;
+  color: #333!important;
+  background-color: white;
+  border-color: transparent;
+  letter-spacing: 0.15em;
+  padding: 0.75em;
+  text-transform: uppercase;
+}
+.linker:focus {
+  outline: none;
+}
+.projectimage {
+  width: 100%;
+}
+
+.map {
+  width: 100%;
+  height: 20%;
+}
+
+form {
+  width: 100%;
+  height: 100%;
+}
+
+.send {
+  border-radius: 25px;
+  background-color: black;
+  border-color: transparent;
+  letter-spacing: 0.15em;
+  padding: 0.75em;
+  text-transform: uppercase;
+  color: white;
+}
+
+input, textarea {
+  padding: 0.75em;
+  margin: 0.75em;
+  width: 50%;
+  height: 50%;
+  font-family: "Open Sans";
+}
+
+/* https://codepen.io/anon/pen/JOvbbj?q=typing&order=popularity&depth=everything&show_forks=false */
